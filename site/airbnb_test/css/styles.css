@@ -1,0 +1,20 @@
+body {
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    background-color: #fff;
+    /* font-family: 'Montserrat', sans-serif */;
+    font-family: Airbnb Cereal App;
+  }
+
+#header-nav {
+    background-color: #f3eeec;
+    border-radius: 0;
+    border: 0;
+  }
+  
+#logo-img {
+    background: url('../images/airbnb_vertical.png') no-repeat;
+    width: 156px;
+    height: 196px;
+    margin: 10px 15px 10px;
+}
