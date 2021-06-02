@@ -11,10 +11,39 @@ body {
     border-radius: 0;
     border: 0;
   }
-  
-#logo-img {
-    background: url('../images/airbnb_vertical.png') no-repeat;
-    width: 156px;
-    height: 196px;
-    margin: 10px 15px 10px;
+
+
+.logo {
+    width: 100px
 }
+
+.navbar-brand {
+    padding-top: 25px;
+  }
+  
+.navbar-brand h1 { /* airbnb online experiences header */
+    font-family: Airbnb Cereal App;
+    color: #ff5a5f;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+  }
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+
+
+.navbar-brand p { /* Kosher cert */
+    color: #000;
+    text-transform: uppercase;
+    font-size: .7em;
+    margin-top: 15px;
+  }*/ 
+
+.navbar-brand p span { /* Star-K */
+    vertical-align: middle;
+  }
