@@ -13,8 +13,11 @@ body {
   }
 
 
-.logo {
-    width: 100px
+#logo-img {
+    background: url('../images/Airbnb-Logo.wine.png') no-repeat; 
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 0;
 }
 
 .navbar-brand {
@@ -32,6 +35,7 @@ body {
     margin-bottom: 0;
     line-height: .75;
   }
+
 .navbar-brand a:hover, .navbar-brand a:focus {
     text-decoration: none;
   }
